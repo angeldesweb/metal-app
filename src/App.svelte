@@ -3,11 +3,11 @@
 </script>
 
 <h1>
-    App semilla versión 0.0.1 (Test de actualización)
+    App semilla versión 0.0.2 (Test de actualización)
 </h1>
 
 <style>
     h1 {
-        color:tomato;
+        color:blueviolet;
     }
 </style>

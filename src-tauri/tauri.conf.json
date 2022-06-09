@@ -29,7 +29,7 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.tauri.dev",
+      "identifier": "com.tauri.metal-app",
       "longDescription": "",
       "macOS": {
         "entitlements": null,
@@ -44,14 +44,22 @@
       "windows": {
         "certificateThumbprint": null,
         "digestAlgorithm": "sha256",
-        "timestampUrl": ""
+        "timestampUrl": "",
+        "wix":{
+          "language":"es-ES"
+        }
       }
     },
     "security": {
       "csp": null
     },
     "updater": {
-      "active": false
+      "active": true,
+      "endpoints": [
+          "https://gist.githubusercontent.com/angeldesweb/3869d5f11ee546602aa185f09003ab5f/raw"
+      ],
+      "dialog": true,
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDQ1NDIyNDdBNDNDNTRDQzQKUldURVRNVkRlaVJDUmIvalZobGduVGMyTkYzTXE4SnEzbU8yUVkrR3VYOGtpUzF3djRUVXFhZDkK"
     },
     "windows": [
       {

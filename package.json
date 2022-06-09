@@ -6,7 +6,8 @@
     "build": "rollup -c",
     "dev": "rollup -c -w",
     "start": "sirv public --no-clear",
-    "tauri": "tauri"
+    "tauri": "tauri",
+    "sign":"tauri signer generate -w ~/.tauri/metal-app.key"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^17.0.0",
